@@ -45,3 +45,37 @@
   font-weight: 900;
   line-height: 80px;
 }
+
+/* main section greetings and offer */
+
+.greetings-offer {
+  width: 100%;
+  margin-top: 40px;
+}
+.greetings-offer-container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.greetings-offer-container h1 {
+  color: #f00;
+  font-size: 65px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.greetings-offer-container p {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+}
+.greetings-offer-container h3 {
+  color: #070211;
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.greetings-offer-container img {
+  width: 100%;
+  filter: drop-shadow(10px 10px 30px rgb(255, 79, 108));
+}
