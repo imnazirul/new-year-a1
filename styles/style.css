@@ -15,11 +15,11 @@
 .header-banner {
   background: url("../resources/Banner\ Image.png");
   width: 80%;
-  height: 480px;
+  height: 500px;
   background-size: cover;
   border-radius: 16px;
   background-position: center;
-  margin: 30px auto;
+  margin: 30px auto 40px;
   overflow: hidden;
 }
 .banner-text {
@@ -77,5 +77,71 @@
 }
 .greetings-offer-container img {
   width: 100%;
-  filter: drop-shadow(10px 10px 30px rgb(255, 79, 108));
+  filter: drop-shadow(10px 10px 30px rgb(0, 79, 108));
+}
+
+/* section two welcome styles */
+
+.welcome-section {
+  width: 100%;
+  margin: 80px 0;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../resources/Vectorrr.png");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.welcome-text {
+  width: 60%;
+  padding: 0px 40px;
+}
+
+.welcome-container img {
+  width: 30%;
+  max-width: 280px;
+  max-height: 400px;
+  margin-right: 50px;
+  /* padding: 30px 0px; */
+  height: inherit;
+}
+.welcome-container .welcome-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  line-height: 60px;
+  letter-spacing: 7px;
+}
+.welcome-container .welcome-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+  margin-bottom: 40px;
+  line-height: 22px;
+}
+/* button css styles */
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: 2px #f00 solid;
+  background: #f00;
+}
+.btn:hover {
+  background: #fff;
+  cursor: pointer;
+  color: #f00;
 }
