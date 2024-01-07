@@ -84,7 +84,7 @@
 
 .welcome-section {
   width: 100%;
-  margin: 80px 0;
+  margin: 100px 0;
 }
 
 .welcome-container {
@@ -144,4 +144,40 @@
   background: #fff;
   cursor: pointer;
   color: #f00;
+}
+
+/* program address styles */
+
+.address-time {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.address-time-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffcdcd, #f8f5f5);
+  border-radius: 16px;
+}
+
+.address-time-text {
+  padding: 70px 300px 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.address-time-text p {
+  color: #070211;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.highlighted-text {
+  color: #f00;
+}
+
+.mb {
+  margin-bottom: 80px;
 }
