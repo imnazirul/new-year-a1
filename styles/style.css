@@ -247,3 +247,28 @@
   font-size: 18px;
   line-height: 25px;
 }
+
+.holiday-sale-section {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.holiday-sale-container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.holiday-sale-container h4 {
+  color: #070211;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holiday-sale-container h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 60px;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
