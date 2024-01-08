@@ -19,7 +19,7 @@
   background-size: cover;
   border-radius: 16px;
   background-position: center;
-  margin: 30px auto 40px;
+  margin: 30px auto 60px;
   overflow: hidden;
 }
 .banner-text {
@@ -50,7 +50,7 @@
 
 .greetings-offer {
   width: 100%;
-  margin-top: 40px;
+  margin-bottom: 100px;
 }
 .greetings-offer-container {
   width: 50%;
@@ -84,7 +84,7 @@
 
 .welcome-section {
   width: 100%;
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 .welcome-container {
@@ -259,16 +259,55 @@
   margin: 0 auto;
 }
 
-.holiday-sale-container h4 {
+.holiday-sale-details h4 {
   color: #070211;
   font-size: 20px;
   font-weight: 500;
 }
-.holiday-sale-container h1 {
+.holiday-sale-details h1 {
   color: #070211;
   text-align: center;
   font-family: Merriweather;
   font-size: 60px;
   margin-bottom: 25px;
   font-weight: 900;
+}
+.holiday-sale-details p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+/* holiday sale banner styles */
+
+.holiday-sale-banner {
+  height: 500px;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../resources/Rectangle\ 2.png"),
+    url("../resources/Rectangle\ 1.png");
+  background-position: bottom, top right;
+  background-size: 100% 140px, 350px 360px;
+}
+
+.off-img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+.box-img {
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+  height: 400px;
+  filter: drop-shadow(5px 5px 50px rgb(250, 223, 73));
+  /* width: 400px; */
 }
