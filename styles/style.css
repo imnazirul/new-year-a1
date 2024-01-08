@@ -309,7 +309,7 @@
   position: absolute;
   left: 50px;
   bottom: 20px;
-  height: 400px;
+  height: 450px;
   filter: drop-shadow(5px 5px 50px rgb(250, 223, 73));
   /* width: 400px; */
 }
@@ -463,8 +463,18 @@ footer hr {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+  align-items: center;
   font-weight: 500;
   line-height: 30px;
+}
+.flex-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-img {
+  width: 25px;
+  height: 25px;
 }
 .footer-web-tel p a:hover {
   color: #f00;
