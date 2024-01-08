@@ -437,3 +437,41 @@
   cursor: pointer;
   color: #f00;
 }
+
+/* footer styles */
+
+footer {
+  width: 100%;
+  color: #fff;
+  background-color: #070211;
+}
+
+footer hr {
+  background: rgba(255, 255, 255, 0.1);
+  height: 1px;
+  margin: 40px auto;
+}
+.main-footer-container {
+  padding: 80px 100px;
+}
+.address-communication-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-address p,
+.footer-web-tel p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.footer-web-tel p a:hover {
+  color: #f00;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
