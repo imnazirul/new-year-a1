@@ -228,9 +228,9 @@
 .offer-img img {
   max-width: 350px;
   max-height: 350px;
-  border: 30px solid #fff;
+  padding: 25px;
   border-radius: 50%;
-  outline: 15px solid #f00;
+  border: 14px solid #f00;
   object-fit: cover;
 }
 .offer-detail-two {
@@ -246,6 +246,7 @@
   color: rgba(7, 2, 17, 0.6);
   font-size: 18px;
   line-height: 25px;
+  margin-bottom: 20px;
 }
 
 /* holiday sale section style */
@@ -307,9 +308,9 @@
 
 .box-img {
   position: absolute;
-  left: 50px;
-  bottom: 20px;
-  height: 450px;
+  left: 30px;
+  bottom: 10px;
+  height: 480px;
   filter: drop-shadow(5px 5px 50px rgb(250, 223, 73));
   /* width: 400px; */
 }
